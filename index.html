@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <img id="header-img" src="https://via.placeholder.com/100" alt="Logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#how-it-works">How It Works</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Call to Action -->
+  <section class="hero">
+    <h1>Welcome to Our Product!</h1>
+    <p>Sign up now to get exclusive updates.</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Enter your email" 
+        required
+      />
+      <input type="submit" id="submit" value="Get Started" />
+    </form>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Fast delivery</li>
+      <li>High quality</li>
+      <li>24/7 Support</li>
+    </ul>
+  </section>
+
+  <!-- How it Works Section -->
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <p>Watch the video below to see how it works:</p>
+    <iframe 
+      id="video" 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title="Product Demo" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-options">
+      <div class="price-box">
+        <h3>Basic</h3>
+        <p>$9.99/mo</p>
+      </div>
+      <div class="price-box">
+        <h3>Pro</h3>
+        <p>$19.99/mo</p>
+      </div>
+      <div class="price-box">
+        <h3>Enterprise</h3>
+        <p>$49.99/mo</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
